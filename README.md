@@ -8,18 +8,18 @@ Git publisher for [Punch](http://laktek.github.com/punch).
     
 * Configure in your Punch project's configurations (`config.json`):
 
-    "plugins": {
-        "publishers": {
-            "git_strategy": "./lib/punch-git-publisher.js" 
-        }
-    },
+        "plugins": {
+            "publishers": {
+                "git_strategy": "./lib/punch-git-publisher.js" 
+            }
+        },
 
-    "publish": {
-        "strategy": "git_strategy",
-        "options": {
-            "repo_url": "git@bitbucket.org:azhdanov/azhdanov.bitbucket.org.git"
+        "publish": {
+            "strategy": "git_strategy",
+            "options": {
+                "repo_url": "git@bitbucket.org:azhdanov/azhdanov.bitbucket.org.git"
+            }
         }
-    }
 
 
 ## License
