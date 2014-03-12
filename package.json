@@ -1,0 +1,11 @@
+{
+  "name": "punch-git-publisher",
+  "description": "Punch Publisher for Git",
+  "version": "0.0.1",
+  "repository": "git@github.com:avalez/punch-git-publisher.git",
+  "dependencies": {
+    "underscore": ">= 1.4.2",
+    "gift": "0.3.0",
+    "fs-extra": "0.8.1"
+  }
+}
